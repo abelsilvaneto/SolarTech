@@ -1,0 +1,12 @@
+### teste do servidor
+GET http://localhost:3000
+Content-Type: application/json
+
+### cadastro de funcionarios
+POST  http://localhost:3000/funcionario
+Content-Type:  application/json
+
+{
+    "email": "lobao@gmai.com",
+    "senha": "lobao4066"
+}
